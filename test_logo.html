@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #011f23;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .logo-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <!-- Render the generated external SVG logo file -->
+        <img src="assets/img/shalom-logo.svg?v=2" alt="Generated Logo Light" width="260" height="40" />
+        <!-- Render the dark theme version on a dark container below -->
+        <div style="background-color: #011f23; padding: 20px; border-radius: 5px;">
+            <img src="assets/img/shalom-logo-dark.svg?v=2" alt="Generated Logo Dark" width="260" height="40" />
+        </div>
+        <!-- Render the favicon -->
+        <img src="assets/img/favicon.svg" alt="Favicon" width="64" height="64" />
+    </div>
+</body>
+</html>
